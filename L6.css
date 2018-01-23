@@ -1,0 +1,456 @@
+html,
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 231, 231);
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.background {
+    overflow: hidden;
+    background-image: url("city.jpg")!important;
+    background-position: -10px -100px;
+    background-size: 110%;
+}
+
+.header {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.leftalign {
+    float: left;
+    padding-top: 10px;
+}
+
+.rightalign {
+    float: right;
+    padding-top: 10px;
+}
+
+.headitems {
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.headitems:hover {
+    color: rgb(225, 193, 16);
+    cursor: pointer;
+}
+
+.headitems:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    text-align: left;
+    background-color: white;
+    color: gray;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    margin-top: 7px;
+}
+
+.wtext {
+    color: white;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.button1 {
+    padding-top: 0.5%;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgb(38, 138, 88);
+    color: white;
+    height: 20px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: rgb(25, 95, 60);
+}
+
+.line {
+    clear: both;
+    height: 1px;
+    background-color: white;
+    opacity: 0.25;
+}
+
+.container1 {
+    padding-top: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.para {
+    line-height: 1.5;
+}
+
+.button2 {
+    background-color: rgb(38, 138, 88);
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(21, 77, 49);
+}
+
+.button2:hover {
+    background-color: rgb(25, 95, 60);
+}
+
+.button3 {
+    background-color: rgb(190, 166, 30);
+    color: white;
+    padding: 15px 25px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    box-shadow: 0 3px rgb(151, 132, 24);
+}
+
+.button3:hover {
+    background-color: rgb(168, 147, 28);
+}
+
+.greenbox {
+    float: right;
+    padding: 15px;
+    background-color: rgba(38, 138, 88, 0.9);
+    min-width: 300px;
+    margin-right: 75px;
+}
+
+.inputbox {
+    padding-left: 25px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+.right {
+    float: right;
+}
+
+.needicon {
+    position: relative;
+}
+
+.needicon1::before {
+    font-family: FontAwesome;
+    color: rgb(145, 145, 145);
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    content: "\f002";
+    font-size: 14px;
+}
+
+.needicon2::before {
+    font-family: FontAwesome;
+    color: rgb(145, 145, 145);
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    content: "\f278";
+    font-size: 13px;
+}
+
+.needicon3::before {
+    font-family: FontAwesome;
+    color: rgb(145, 145, 145);
+    position: absolute;
+    top: 16px;
+    left: 7px;
+    content: "\f114";
+}
+
+.needicon4::before {
+    font-family: FontAwesome;
+    color: rgb(145, 145, 145);
+    position: absolute;
+    top: 16px;
+    left: 10px;
+    content: "\f155";
+    font-size: 14px;
+}
+
+.inputtext {
+    float: left;
+    text-indent: 21px;
+}
+
+.button35 {
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.button4 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(16, 59, 38);
+    width: 100%;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+[class*="button"] {
+    outline: none;
+    border: none;
+}
+
+.container2 {
+    padding-top: 10px;
+    background-color: white;
+}
+
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logoline {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.linkwidth {
+    opacity: 0.8;
+    margin-right: 4.4%;
+    width: 16.48%;
+    float: left;
+    text-align: center;
+}
+
+.logo2 {
+    opacity: 0.4;
+    height: 50px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.logo2:hover {
+    opacity: 1;
+}
+
+.linkwidth:last-child {
+    margin-right: 0!important;
+}
+
+.container3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.greytext {
+    color: rgb(122, 122, 122);
+}
+
+.textcont3 {
+    text-align: center;
+    max-width: 487.5px;
+}
+
+.picgrid {
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-column-gap: 2%;
+    grid-row-gap: 19px;
+    grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+}
+
+.pic {
+    color: white;
+    background-size: cover;
+    height: 191.2px;
+}
+
+.pic:hover .button5 {
+    display: none;
+}
+
+.pic:hover .blackness {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1))
+}
+
+.blackness {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.pic1 {
+    background-image: url("product-2.jpg");
+}
+
+.pic2 {
+    background-image: url("product-3.jpg");
+}
+
+.pic3 {
+    background-image: url("product-4.jpg");
+}
+
+.pic4 {
+    background-image: url("product-5.jpg");
+}
+
+.pic5 {
+    background-image: url("product-6.jpg");
+}
+
+.pic6 {
+    background-image: url("product-7.jpg");
+}
+
+.pic7 {
+    background-image: url("product-8.jpg");
+}
+
+.pic8 {
+    background-image: url("product-9.jpg");
+}
+
+.button5 {
+    font-weight: bold;
+    background-color: rgb(190, 166, 30);
+    color: white;
+    padding: 5px 20px;
+}
+
+.textpic {
+    cursor: pointer;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.divbutt {
+    text-align: center;
+}
+
+.button6 {
+    font-weight: bold;
+    background-color: rgb(14, 161, 167);
+    color: white;
+    padding: 5px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buttonall {
+    display: none;
+    color: white;
+    background-color: transparent;
+    border: solid 1px white;
+    padding-top: 2px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        margin: 0 5%;
+    }
+    .container1 {
+        margin: 0 5%;
+    }
+    .logoline {
+        margin: 0 5%;
+    }
+    .picgrid {
+        grid-column-gap: 2%;
+        grid-template-columns: 49% 49%;
+    }
+    .greenbox {
+        min-width: 250px;
+        margin-right: 0;
+    }
+    .title {
+        display: none;
+    }
+    .background {
+        background-position: -10px -50px;
+        background-size: 120%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .greenbox {
+        min-width: 100px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .picgrid {
+        grid-template-columns: auto;
+    }
+    .linkwidth {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .logo2 {
+        max-height: 50px;
+        width: 245px;
+        margin-bottom: 10px;
+    }
+    .container1 {
+        padding: 0px 15px;
+    }
+    .greenbox {
+        margin-top: 10px;
+        width: 100%;
+        float: none;
+    }
+    .headitems {
+        display: none;
+    }
+    .button1 {
+        display: none;
+    }
+    .buttonall {
+        display: block;
+    }
+    .leftside {
+        display: none;
+    }
+    .background {
+        background-position: -10px -50px;
+        background-size: 250%;
+    }
+}
