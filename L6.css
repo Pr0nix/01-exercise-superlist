@@ -394,6 +394,7 @@ body {
 }
 
 .hidbutt {
+    cursor: pointer;
     border-radius: 50%;
     background-color: transparent;
     color: white;
