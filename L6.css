@@ -63,7 +63,6 @@ body {
 li {
     text-indent: 15px;
     list-style-type: none;
-    color: rgb(122, 122, 122);
     border-top: 1px solid rgb(122, 122, 122);
     padding: 10px 0;
 }
@@ -74,10 +73,16 @@ li:first-of-type {
 
 a:link {
     text-decoration: none;
+    color: rgb(122, 122, 122);
 }
 
 a:visited {
     color: rgb(122, 122, 122);
+}
+
+a:hover {
+    color: rgb(225, 193, 16);
+    transition: color 0.3s;
 }
 
 .dropdown {
@@ -508,7 +513,11 @@ ul {
     margin-bottom: 5px;
 }
 
-.buttonall:hover .dropdown {
+.buttonallwrap {
+    height: 100%;
+}
+
+.buttonallwrap:hover .dropdown {
     -webkit-transition: opacity 1s;
     transition: opacity 1s, visibility 1s;
     opacity: 1;
