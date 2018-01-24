@@ -399,6 +399,7 @@ body {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+    outline: none;
 }
 
 .pic:hover .hiddentext {
