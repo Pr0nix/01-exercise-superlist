@@ -71,6 +71,13 @@ body {
     opacity: 0;
 }
 
+.dropleft {
+    float: left;
+    right: 0;
+    text-align: right!important;
+    min-width: 33.333%!important;
+}
+
 .wtext {
     color: white;
     margin: 0px;
@@ -316,7 +323,7 @@ body {
 }
 
 .pic:hover .wrap {
-    margin-top: -26px;
+    margin-top: -30px;
     transition: margin-top 1s;
 }
 
@@ -328,7 +335,7 @@ body {
 
 .blackness {
     position: absolute;
-    width: 235px;
+    width: 100%;
     height: 191.2px;
     opacity: 0;
 }
@@ -456,6 +463,12 @@ body {
     padding-top: 2px;
     cursor: pointer;
     margin-bottom: 5px;
+}
+
+.buttonall:hover .dropdown {
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+    opacity: 1;
 }
 
 .title {
