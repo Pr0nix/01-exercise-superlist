@@ -109,12 +109,29 @@ a:hover {
 }
 
 ul {
+    margin-top: 10px;
     margin-bottom: 0;
     padding-left: 0;
 }
 
 .menu:hover {
     padding-bottom: 0;
+}
+
+.menuyellow {
+    width: 460.8px;
+}
+
+.menu:hover .menuyellow {
+    color: rgb(225, 193, 16);
+}
+
+.submenuyellow {
+    width: 460.8px;
+}
+
+.submenulist:hover .submenuyellow {
+    color: rgb(225, 193, 16);
 }
 
 .drop2 {
